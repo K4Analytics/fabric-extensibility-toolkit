@@ -1,20 +1,16 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <!-- Package information -->
-    <id>{{WORKLOAD_NAME}}</id>
-    <version>{{WORKLOAD_VERSION}}</version>
-    <authors>author</authors>
-    <owners>owner</owners>
-    <description>A NuGet package that holds the manifests for the {{WORKLOAD_NAME}} workload.</description>
+    <id>Org.K4Analytics</id>
+    <version>1.0.0</version>
+    <authors>K4 Analytics</authors>
+    <owners>K4 Analytics</owners>
+    <description>K4 Analytics workload for Microsoft Fabric.</description>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
   <files>
-    <!-- Include the XML and FE files -->
-    <file src="{{MANIFEST_FOLDER}}\*.xml" target="BE" />
-    <file src="{{MANIFEST_FOLDER}}\*.json" target="FE" />
-    <file src="{{MANIFEST_FOLDER}}\assets\**" target="FE\assets" />
-    <!-- TODO will be added once schemas are allowed -->
-    <!-- file src="{{MANIFEST_FOLDER}}\items\**" target="items" / -->
+    <file src="**\*.xml" target="BE" />
+    <file src="**\*.json" target="FE" />
+    <file src="assets\**" target="FE\assets" />
   </files>
 </package>

@@ -1,18 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
 <WorkloadManifestConfiguration SchemaVersion="2.0.0">
-  <Workload WorkloadName="Org.K4Analytics" HostingType="FERemote">
-    <Version>1.0.0</Version>
+  <Workload WorkloadName="{{WORKLOAD_NAME}}" HostingType="{{WORKLOAD_HOSTING_TYPE}}">
+    <Version>{{WORKLOAD_VERSION}}</Version>
     <RemoteServiceConfiguration>
       <CloudServiceConfiguration>
         <Cloud>Public</Cloud>
         <AADFEApp>
-          <AppId>95c0e67f-594e-438f-81db-3ba3846e1fac</AppId>
+          <!-- Filled by Setup.ps1 or manually with your Entra app ID -->
+          <AppId>{{FRONTEND_APPID}}</AppId>
         </AADFEApp>
+        <!--
+          EnableSandboxRelaxation=true is REQUIRED for K4:
+          - File downloads from K4 (Excel exports, PDF reports)
+          - Cross-origin iframe communication with K4 embed
+          The original Starter Kit has this set to false.
+        -->
         <EnableSandboxRelaxation>true</EnableSandboxRelaxation>
         <Endpoints>
           <ServiceEndpoint>
             <Name>Frontend</Name>
-            <Url>https://localhost:60006</Url>
+            <Url>{{FRONTEND_URL}}</Url>
             <IsEndpointResolutionService>false</IsEndpointResolutionService>
           </ServiceEndpoint>
         </Endpoints>

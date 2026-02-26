@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ItemManifestConfiguration SchemaVersion="2.0.0">
+  <Item TypeName="K4Analytics.Planning.K4Model" Category="Data">
+    <Workload WorkloadName="K4Analytics.Planning" />
+  </Item>
+</ItemManifestConfiguration>

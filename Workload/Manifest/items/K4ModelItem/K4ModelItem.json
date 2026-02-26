@@ -1,0 +1,31 @@
+{
+  "name": "K4Model",
+  "version": "1.100",
+  "displayName": "K4Model_DisplayName",
+  "displayNamePlural": "K4Model_DisplayNamePlural",
+  "editor": {
+    "path": "/K4ModelItem-editor"
+  },
+  "icon": {
+    "name": "assets/images/Workload_Icon.png"
+  },
+  "activeIcon": {
+    "name": "assets/images/Workload_Icon.png"
+  },
+  "contextMenuItems": [],
+  "quickActionItems": [],
+  "supportedInMonitoringHub": false,
+  "supportedInDatahubL1": true,
+  "itemJobActionConfig": {},
+  "editorTab": {
+    "onDeactivate": "item.tab.onDeactivate",
+    "canDeactivate": "item.tab.canDeactivate",
+    "canDestroy": "item.tab.canDestroy",
+    "onDestroy": "item.tab.onDestroy",
+    "onDelete": "item.tab.onDelete"
+  },
+  "createItemDialogConfig": {
+    "onCreationFailure": { "action": "item.onCreationFailure" },
+    "onCreationSuccess": { "action": "item.onCreationSuccess" }
+  }
+}

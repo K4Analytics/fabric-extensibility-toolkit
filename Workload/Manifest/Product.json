@@ -1,9 +1,9 @@
 {
     "name": "Product",
     "version": "1.100",
-    "displayName": "Workload_Display_Name",
-    "fullDisplayName": "Workload_Full_Display_Name",
-    "description": "Workload_Description",
+    "displayName": "K4Analytics_DisplayName",
+    "fullDisplayName": "K4Analytics_FullDisplayName",
+    "description": "K4Analytics_Description",
     "favicon": "assets/images/Workload_Icon.png",
     "icon": {
       "name": "assets/images/Workload_Icon.png"
@@ -11,31 +11,31 @@
     "homePage": {
       "learningMaterials": [
         {
-          "title": "Workload_Hub_GetStarted_1_Title",
-          "introduction": "Workload_Hub_GetStarted_1_Sub_Title",
-          "description": "Workload_Hub_GetStarted_1_Description",
+          "title": "K4Analytics_GetStarted_Title",
+          "introduction": "K4Analytics_GetStarted_Intro",
+          "description": "K4Analytics_GetStarted_Desc",
           "image": "assets/images/Workload_Hub_GetStarted_1.png",
-          "link": "https://aka.ms/get-started-learning-docs"
+          "link": "https://help.k4analytics.com/fabric"
         }
       ],
       "newSection": {
-        "customActions": [
-        ]},
-        "recommendedItemTypes": [
-          "HelloWorld"
-        ]
+        "customActions": []
+      },
+      "recommendedItemTypes": [
+        "K4Model"
+      ]
     },
     "createExperience": {
-      "description": "Workload_Description",
+      "description": "K4Analytics_CreateDesc",
       "cards": [
         {
-          "title": "HelloWorldItem_DisplayName",
-          "description": "HelloWorldItem_Description",
+          "title": "K4Model_DisplayName",
+          "description": "K4Model_Description",
           "icon": {
-            "name": "assets/images/HelloWorldItem_Icon.png"
+            "name": "assets/images/Workload_Icon.png"
           },
           "icon_small": {
-            "name": "assets/images/HelloWorldItem_Icon.png"
+            "name": "assets/images/Workload_Icon.png"
           },
           "availableIn": [
             "home",
@@ -43,7 +43,7 @@
             "workspace-plus-new",
             "workspace-plus-new-teams"
           ],
-          "itemType": "HelloWorld",
+          "itemType": "K4Model",
           "createItemDialogConfig": {
             "onCreationFailure": { "action": "item.onCreationFailure" },
             "onCreationSuccess": { "action": "item.onCreationSuccess" }
@@ -52,32 +52,28 @@
       ]
     },
     "productDetail": {
-      "publisher": "Name of publisher",
-      "slogan": "Workload_Hub_Slogan",
-      "description": "Workload_Hub_Description",
+      "publisher": "K4AnalyticsLtd",
+      "slogan": "K4Analytics_Slogan",
+      "description": "K4Analytics_DetailDesc",
       "image": {
         "mediaType": 0,
         "source": "assets/images/Workload_Hub_Banner.png"
       },
       "slideMedia": [
         {
-          "mediaType": 1,
-          "source": "https://youtube.com/embed/UNgpBOCvwa8?si=KwsR879MaVZd5CJi"
-        },
-        {
           "mediaType": 0,
           "source": "assets/images/Workload_Hub_SlideMedia_1.png"
         }
       ],
-        "supportLink": {
-          "documentation": {"url": "https://example.com/documentation"},
-          "certification": {"url": "https://example.com/certification"},
-          "help": {"url": "https://example.com/help"},
-          "privacy": {"url": "https://example.com/privacy"},
-          "terms": {"url": "https://example.com/terms"},
-          "license": {"url": "https://azuremarketplace.microsoft.com"} 
+      "supportLink": {
+        "documentation": {"url": "https://help.k4analytics.com"},
+        "certification": {"url": "https://k4analytics.com/certification"},
+        "help": {"url": "https://help.k4analytics.com"},
+        "privacy": {"url": "https://k4analytics.com/privacy"},
+        "terms": {"url": "https://k4analytics.com/terms"},
+        "license": {"url": "https://k4analytics.com/license"}
       }
     },
-    "itemJobTypes" :["storeData", "others"],
-    "compatibleItemTypes" : ["Lakehouse"]
+    "itemJobTypes": ["storeData", "others"],
+    "compatibleItemTypes": ["Lakehouse"]
 }

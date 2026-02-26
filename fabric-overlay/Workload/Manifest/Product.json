@@ -1,0 +1,100 @@
+{
+    "name": "Product",
+    "version": "1.0.0",
+    "displayName": "K4 Analytics",
+    "fullDisplayName": "K4 Analytics Planning",
+    "description": "Excel-compatible Enterprise Planning for Microsoft Fabric. Open and interact with K4 planning models directly in Fabric workspaces.",
+    "favicon": "assets/images/Workload_Icon.png",
+    "icon": {
+      "name": "assets/images/Workload_Icon.png"
+    },
+    "homePage": {
+      "learningMaterials": [
+        {
+          "title": "Get Started with K4 in Fabric",
+          "introduction": "Connect your K4 planning models to Fabric workspaces",
+          "description": "Learn how to create K4 Model items and connect them to your K4 Analytics server for collaborative planning.",
+          "image": "assets/images/Workload_Hub_GetStarted_1.png",
+          "link": "https://help.k4analytics.com/fabric"
+        }
+      ],
+      "newSection": {
+        "customActions": []
+      },
+      "recommendedItemTypes": [
+        "K4Model",
+        "HelloWorld"
+      ]
+    },
+    "createExperience": {
+      "description": "Create K4 Analytics planning items in your Fabric workspace.",
+      "cards": [
+        {
+          "title": "K4 Model",
+          "description": "Open and interact with a K4 Analytics planning model",
+          "icon": {
+            "name": "assets/images/HelloWorldItem_Icon.png"
+          },
+          "icon_small": {
+            "name": "assets/images/HelloWorldItem_Icon.png"
+          },
+          "availableIn": [
+            "home",
+            "create-hub",
+            "workspace-plus-new",
+            "workspace-plus-new-teams"
+          ],
+          "itemType": "K4Model",
+          "createItemDialogConfig": {
+            "onCreationFailure": { "action": "item.onCreationFailure" },
+            "onCreationSuccess": { "action": "item.onCreationSuccess" }
+          }
+        },
+        {
+          "title": "HelloWorldItem_DisplayName",
+          "description": "HelloWorldItem_Description",
+          "icon": {
+            "name": "assets/images/HelloWorldItem_Icon.png"
+          },
+          "icon_small": {
+            "name": "assets/images/HelloWorldItem_Icon.png"
+          },
+          "availableIn": [
+            "home",
+            "create-hub",
+            "workspace-plus-new",
+            "workspace-plus-new-teams"
+          ],
+          "itemType": "HelloWorld",
+          "createItemDialogConfig": {
+            "onCreationFailure": { "action": "item.onCreationFailure" },
+            "onCreationSuccess": { "action": "item.onCreationSuccess" }
+          }
+        }
+      ]
+    },
+    "productDetail": {
+      "publisher": "K4 Analytics Ltd",
+      "slogan": "Plan Anywhere with Excel-based Simplicity",
+      "description": "K4 Analytics brings true Excel-compatible enterprise planning to Microsoft Fabric. Connect your K4 planning models directly to Fabric workspaces for collaborative budgeting, forecasting, and financial planning.",
+      "image": {
+        "mediaType": 0,
+        "source": "assets/images/Workload_Hub_Banner.png"
+      },
+      "slideMedia": [
+        {
+          "mediaType": 0,
+          "source": "assets/images/Workload_Hub_SlideMedia_1.png"
+        }
+      ],
+      "supportLink": {
+        "documentation": { "url": "https://help.k4analytics.com" },
+        "help": { "url": "https://help.k4analytics.com" },
+        "privacy": { "url": "https://k4analytics.com/privacy" },
+        "terms": { "url": "https://k4analytics.com/terms" },
+        "license": { "url": "https://k4analytics.com/license" }
+      }
+    },
+    "itemJobTypes": ["storeData", "others"],
+    "compatibleItemTypes": ["Lakehouse"]
+}

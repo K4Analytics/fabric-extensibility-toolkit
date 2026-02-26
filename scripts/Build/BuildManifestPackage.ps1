@@ -185,7 +185,7 @@ if($IsWindows){
     # On Mac and Linux, we need to use mono to run the script
     # alternatively, we could use dotnet tool if available
     # nuget pack $nuspecFile -OutputDirectory $outputDir -Verbosity detailed 2>&1   
-    mono $nugetPath pack $nuspecPath -OutputDirectory $outputDir -Verbosity detailed
+	& $nugetPath pack $nuspecPath -OutputDirectory $outputDir -Version $version
 }
 
 Write-Host "✅ Created the new ManifestPackage in $outputDir." -ForegroundColor Blue

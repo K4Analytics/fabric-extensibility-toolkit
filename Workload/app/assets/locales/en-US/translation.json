@@ -6,7 +6,7 @@
     "Item_About_Label": "About",
     "Item_Description_Label": "Description",
     "Workspace_ID_Label": "Workspace Id",
-    "Workspace_Name_Label": "Workspace Name",    
+    "Workspace_Name_Label": "Workspace Name",
     "Language_Changed_Title": "Language Changed",
     "Language_Changed_Message": "The language is currently:",
     "Default_Language_Title": "Language is default",
@@ -17,9 +17,46 @@
     "ItemEditor_Saved_Notification_Text": "{{itemName}} saved successfully.",
     "ItemEditor_SaveFailed_Notification_Title": "Save failed",
     "ItemEditor_SaveFailed_Notification_Text": "Failed to save {{itemName}}.",
-    "HelloWorldItemEditor_Title": "Hello World Item Editor",
-    "HelloWorldItemEditor_Definition_Message_Label": "Item Definition",
-    "HelloWorldItemEditorEmpty_Message": "Let's say hello to {{itemName}}!",
-    "HelloWorldItemEditorEmpty_Button": "Save item"
+
+    "K4Analytics_DisplayName": "K4 Analytics",
+    "K4Analytics_FullDisplayName": "K4 Analytics Planning",
+    "K4Analytics_Description": "Enterprise planning and budgeting powered by K4 Analytics",
+    "K4Analytics_CreateDesc": "Create a K4 Analytics planning model",
+    "K4Analytics_Slogan": "Excel-compatible enterprise planning",
+    "K4Analytics_DetailDesc": "K4 Analytics brings enterprise-grade FP&A and S&OP planning directly into Microsoft Fabric. Connect your K4 planning models and collaborate with your team in a single workspace.",
+    "K4Analytics_GetStarted_Title": "Get started with K4 Analytics",
+    "K4Analytics_GetStarted_Intro": "Connect your K4 planning models to Fabric",
+    "K4Analytics_GetStarted_Desc": "Learn how to set up your K4 server connection and start working with planning models inside Microsoft Fabric.",
+
+    "K4Model_DisplayName": "K4 Model",
+    "K4Model_DisplayNamePlural": "K4 Models",
+    "K4Model_Description": "Connect and embed a K4 Analytics planning model in this Fabric workspace",
+
+    "K4_Loading": "Loading K4 Model...",
+    "K4_Saved_Title": "Saved",
+    "K4_Saved_Text": "{{itemName}} saved successfully.",
+    "K4_SaveFailed_Title": "Save Failed",
+    "K4_SaveFailed_Text": "Failed to save {{itemName}}.",
+
+    "K4_Empty_Title": "Connect to K4 Analytics",
+    "K4_Empty_Description": "Configure your K4 server connection to embed a planning model in this Fabric workspace.",
+    "K4_Empty_Connect": "Connect to K4",
+    "K4_Empty_Connect_Desc": "Enter your K4 server URL and model ID to get started.",
+
+    "K4_Label_Server": "Server URL",
+    "K4_Label_Model": "Model ID",
+    "K4_Label_EntraId": "Entra ID Single Sign-On",
+    "K4_Label_ApiKey": "API Key",
+    "K4_Label_Username": "Username",
+    "K4_Validation_Url": "URL must start with https://",
+    "K4_EntraId_On": "Enabled — users authenticate via Microsoft Entra ID",
+    "K4_EntraId_Off": "Disabled — use API key authentication",
+    "K4_Button_Connect": "Connect",
+	
+		"K4_Settings_Title": "K4 Connection Settings",
+	"K4_Settings_Description": "Update your K4 server connection for this item.",
+	"K4_Settings_Save": "Save changes",
+	"K4_Settings_Saving": "Saving...",
+	"K4_Settings_Saved": "✓ Settings saved"
+	
 }
-  
