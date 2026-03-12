@@ -1,0 +1,1 @@
+pwsh ./scripts/Build/BuildManifestPackage.ps1
